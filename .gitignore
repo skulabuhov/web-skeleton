@@ -1,0 +1,38 @@
+# IDE
+.idea/
+.vscode/
+
+# Dependencies
+vendor/
+**/vendor/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Uploaded files
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# PHP files
+*.php~
+*.log
+error_log
